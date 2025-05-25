@@ -93,20 +93,7 @@ aws s3 mb s3://your-unique-bucket-name --region us-east-1
 
 > ⚠️ Replace `your-unique-bucket-name` with a globally unique name (e.g., `facial-rekognition-demo-ajay`).
 
-This bucket will store image files to be processed by Amazon Rekognition.
-
-aws-facial_rekognition/
-├── README.md               # Project documentation
-├── lamdafunction.py        # AWS Lambda function script
-├── putimages.py            # Script to upload images to S3 and index faces
-├── policy.json             # IAM policy configuration
-├── image1.jpg              # Sample image files
-├── image2.jpg
-├── image3.jpg
-├── image4.jpg
-├── image5.jpg
-└── image6.jpg
-
+ bucket will store image files to be processed by Amazon Rekognition.
 ```
 
 
